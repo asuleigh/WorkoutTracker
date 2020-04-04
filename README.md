@@ -34,7 +34,7 @@ i: INSTALLATION
 <hr>
 
 ii: USAGE
--Layout is as it appears, functions, and is responsive. The index page contains my About Me, the portfolio page contains links to past work, the documents and links page contains my resume and professional links, and the contact page gives users a form to contact me by email. More will be added in coming updates.
+-Layout is as it appears, functions, and is responsive. A user can interact with the app to create a new workout, continue a previous workout, or see charts of their progress (top left link).
 
 <hr>
 
