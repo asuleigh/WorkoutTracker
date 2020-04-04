@@ -1,8 +1,9 @@
+// DEPENDENCIES
 const express = require("express")
 const logger = require("morgan")
 const mongoose = require("mongoose")
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 27017
 
 const app = express()
 
@@ -19,7 +20,7 @@ mongoose.connect(MONGODB_URI, {
   useFindAndModify: false
 });
 
-
+// ROUTES
 app.use(require("./routes/apiroutes.js"))
 app.use(require("./routes/htmlroutes.js"))
 

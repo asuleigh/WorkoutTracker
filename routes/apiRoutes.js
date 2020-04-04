@@ -1,11 +1,11 @@
 // Routes for API
 
 const router = require("express").Router()
-const Fitness = require("../models/fitness.js")
+const Workout = require("../models/workout.js")
 
 
 router.post("/api/workouts", ( req, res) => {
-    Fitness.create({})
+    Workout.create({})
       .then(dbWorkout => {
         res.json(dbWorkout);
       })
@@ -15,7 +15,7 @@ router.post("/api/workouts", ( req, res) => {
   });
 
   router.put("/api/workouts/:id", ({ body, params}, res)=> {
-      Fitness.findByIdAndUpdate(
+      Workout.findByIdAndUpdate(
           params.id,
           {$push: {exercises: body}
 
@@ -33,7 +33,7 @@ router.post("/api/workouts", ( req, res) => {
   })
 
   router.get ("/api/workouts", (req,res) => {
-      Fitness.find()
+      Workout.find()
       .then(dbWorkouts => {
           res.json(dbWorkouts);
       })
@@ -43,7 +43,7 @@ router.post("/api/workouts", ( req, res) => {
   })
 
   router.get("/api/workouts/range", (req, res) => {
-      Fitness.find({}).limit(9)
+      Workout.find({}).limit(9)
         .then(dbWorkouts => {
             res.json(dbWorkouts);
         })
@@ -53,7 +53,7 @@ router.post("/api/workouts", ( req, res) => {
   })
 
   router.delete("/api/workouts", ({ body },res)=> {
-      Fitness.findByIdAndDelete(body.id)
+      Workout.findByIdAndDelete(body.id)
       .then(()=> {
         res.json(true);
       })
