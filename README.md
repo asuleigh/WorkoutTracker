@@ -39,11 +39,11 @@ ii: USAGE
 <hr>
 
 iii: CREDITS
--https://meyerweb.com/eric/tools/css/reset/
--https://www.toptal.com/designers/subtlepatterns/
 -https://w3schools.com
 -https://getbootstrap.com/
 -https://www.npmjs.com/package/express
+-https://medium.com/@yugagrawal95/mongoose-mongodb-functions-for-crud-application-1f54d74f1b34
+-https://silvantroxler.ch/2016/insert-or-update-with-mongodb-and-mongoose/
 
 <hr>
 
