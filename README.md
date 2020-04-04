@@ -34,7 +34,7 @@ i: INSTALLATION
 <hr>
 
 ii: USAGE
--Layout is as it appears, functions, and is responsive. A user can interact with the app to create a new workout, continue a previous workout, or see charts of their progress (top left link).
+-Layout is as it appears, functions, and is responsive. A user can interact with the app to create a new workout, continue a previous workout, or see charts of their progress by clicking the top left link.
 
 <hr>
 
