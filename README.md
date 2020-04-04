@@ -11,7 +11,7 @@ My third updated professional portfolio
 
 <hr>
 
-ABSTRACT: For this project I built and hooked in the backend of a fitness tracker app. This app uses a Mongo database, a Mongoose schema, and express for handling routes. A user can interact with the app to create a new workout, continue a previous workout, or see charts of their progress (top left link).
+ABSTRACT: For this project I built and hooked in the backend of a fitness tracker app. This app uses a Mongo database, a Mongoose schema, and express for handling routes. A user can interact with the app to create a new workout, continue a previous workout, or see click the top left link to see charts of their progress.
 
 <hr>
 
