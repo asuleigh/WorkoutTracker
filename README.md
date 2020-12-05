@@ -1,5 +1,5 @@
 # [WorkoutTracker](https://afternoon-cliffs-68969.herokuapp.com/?id=5e88566ca6747400178a6e25)
-My third updated professional portfolio
+A project for tracking workouts
 
 ### LINKS
 [Heroku Link](https://afternoon-cliffs-68969.herokuapp.com/?id=5e88566ca6747400178a6e25)
